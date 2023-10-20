@@ -1,4 +1,4 @@
-# Forecasting-short-term-hydrocarbon-production-time-series with TensorFlow
+# Forecasting short-term hydrocarbon production time-series with TensorFlow
 This repository introduces methodologies for short-to-long term forecasting of hydrocarbon production using TensorFlow. The focus is on building a variety of model styles, including Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).
 
 The codes are categorized into two primary parts:
