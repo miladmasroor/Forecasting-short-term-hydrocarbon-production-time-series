@@ -24,3 +24,14 @@ Before training any model, ensure to adjust the hyper-parameters using Ax for op
 Follow the guidelines and comments in each notebook for a systematic approach to time series forecasting.
 
 We hope this repository aids in comprehending and applying TensorFlow for hydrocarbon production forecasting effectively. Happy forecasting!
+
+# data preparation:
+
+Data windowing: It is supposed that the data-driven approaches presented in this research can build a set of predictions on the basis of the windows of consecutive data samples, which have the following major specifications:
+1)	The width (number of time steps) of the label and input windows;
+2)	The time offset between them;
+3)	The features utilized as labels, inputs, or both.
+The purpose of this section is to describe how to generate the data windows in order to develop and train data-driven forecasting techniques using time series data. Depending on the type of model, and the prediction objectives ((i) single-output or multiple-output predictions, (ii) single-time-step or multiple-time-step predictions), we may use different windowing styles. Here are some examples:
+Example 1: When you wish to make a single prediction of 24 days into the future based on 24 days of historical data, you can define a window with an input width of 24 days, a time offset of 24 days, and a label width of 1 day.
+![1](https://github.com/miladmasroor/Forecasting-short-term-hydrocarbon-production-time-series/assets/79324919/52edfe5b-5a1c-414b-929f-d2a9283d6901)
+
