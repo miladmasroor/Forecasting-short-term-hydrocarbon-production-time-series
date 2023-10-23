@@ -35,3 +35,16 @@ The purpose of this section is to describe how to generate the data windows in o
 Example 1: When you wish to make a single prediction of 24 days into the future based on 24 days of historical data, you can define a window with an input width of 24 days, a time offset of 24 days, and a label width of 1 day.
 ![1](https://github.com/miladmasroor/Forecasting-short-term-hydrocarbon-production-time-series/assets/79324919/52edfe5b-5a1c-414b-929f-d2a9283d6901)
 
+Example 2: In order to make a prediction of 1 day into the future, given 20 days of historical data, a window should be constructed with an input width of 20 days, a time offset of 1 day, and a label width of 1 day. It is worth noting that production data of this study have been windowed in a similar scheme explained in this example.
+![2](https://github.com/miladmasroor/Forecasting-short-term-hydrocarbon-production-time-series/assets/79324919/a92ef4dd-c3bc-4ef1-a211-e5936f923724)
+
+Split window: By employing the split window technique, a list of consecutive inputs is converted to a window of labels and a window of inputs. As the following figure shows, the second example of data windowing, which was defined previously, is divided into a window of labels and a window of inputs.
+![3](https://github.com/miladmasroor/Forecasting-short-term-hydrocarbon-production-time-series/assets/79324919/b5208981-6713-4628-91c7-c30f9d7533de)
+
+# Predictive strategy: 
+![4](https://github.com/miladmasroor/Forecasting-short-term-hydrocarbon-production-time-series/assets/79324919/3d8ba6dd-1da3-4ecc-b269-c1f251c5a2b2)
+
+# Forecasting process: 
+![5](https://github.com/miladmasroor/Forecasting-short-term-hydrocarbon-production-time-series/assets/79324919/35adffea-4d39-442f-af44-72a3273ca7cc)
+
+
